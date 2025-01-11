@@ -6,7 +6,6 @@ This project uses **Apache Kafka** with **Spring Cloud Stream** to demonstrate t
 
 ## Starting Kafka and Zookeeper
 
-### Option 1: Téléchargement manuel de Kafka
 Using Docker Compose, we define two services: the first is `zookeeper`, responsible for managing the cluster, and the second is a single Kafka broker service named `kafka`.
 
 ```yaml
